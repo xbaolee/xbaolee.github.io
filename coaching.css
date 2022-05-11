@@ -1,0 +1,245 @@
+.banner { background-image: url(bannerbg/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 310px;
+}
+.text-block{
+  padding-top: 2em;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 3px 2px 5px black;
+}
+h1{ 
+  background-color: rgba(233,255,219,0.653);
+  font-size: 40px;
+  font-style:oblique;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(28,120,99,0.899)
+}
+.teaching{
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.teaching video{
+  padding-left: 10px;
+  width: 230px;
+  height: 160px;
+  padding-bottom: 20px;
+}
+.teaching img{
+  padding-left: 10px;
+  width: 230px;
+  height: 150px;
+}
+
+.mb-10{
+  line-height: 2em;
+  margin-bottom:10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(255,255,224,0.628);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+  color: rgb(66,128,108);
+  text-decoration: underline;
+  font-size: 25px;
+  font-family:Georgia, Times, 'Times New Roman', serif;
+  margin-left:20px;
+  margin-top:10px;
+}
+.content{
+  font-size: 18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left:20px;
+  margin-top:7px;
+  margin-bottom:20px;
+  color: black;
+
+}
+h3{
+  padding-left: 1em;
+  text-decoration: underline; 
+  font-size: 35px;
+  font-weight:bold;
+  font-style:oblique;
+  text-shadow: 2px 2px 5px rgb(135,206,250)
+}
+.plan{
+  margin-top:5px;
+  font-family:monospace;
+  color: rgb(24, 16, 3);
+  text-shadow: 2px 2px 4px rgb(250,218,94);
+  text-align:center;
+  font-size: 35px;
+}
+.img1{
+  width: 60px;
+  height: 60px;
+}
+.img2{
+  width: 50px;
+  height: 50px;
+}
+.img3{
+  width: 70px;
+  height: 70px;
+}
+.img4{
+  width: 80px;
+  height: 80px;
+}
+.coach img{
+  width: 200px;
+  height: 200px;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+}
+.row1{
+    display:flex;
+    justify-content: center;
+}
+.col{
+  background-color: rgb(240,255,240);
+  font-size:17px;
+  margin:10px;
+  padding-left:20px;
+  padding-right:5px;
+  padding-bottom:10px;
+  border: 1px solid rgb(64,21,217);
+  border-radius: 4px;
+}
+.academy{
+  font-weight:bold;
+  color:rgb(18,155,100);
+  font-size:18px;
+  text-align:center
+}
+ul{
+  list-style-type: square;
+}
+.container3{
+  display: flex;
+  justify-content: center;
+}
+.container4{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+h5{
+  padding-top: 10px;
+  background-color: rgb(240,255,240);
+  text-decoration: underline; 
+  font-size: 35px;
+  font-weight:bold;
+  font-style:oblique;
+  margin-left:10px;
+  text-shadow: 2px 2px 5px rgb(135,206,250);
+  padding-left: 1em;
+}
+.coaching{
+  margin-top:10px;
+  margin-bottom:10px;
+  display:flex;
+  justify-content: center;
+}
+.coach{
+  margin-top: 15px;
+  color: rgb(28,120,99,0.899);
+  padding-left: 20px;
+  padding-right: 25px;
+  font-size:20px;
+  font-weight: bold;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-bottom: 1px;
+  float:left;
+}
+.col2{
+  background-color: rgba(255,255,224,0.765);
+  margin-bottom:20px;
+  padding-left:23px;
+  padding-right:10px;
+  border: 1px solid rgb(28,120,99,0.899);
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+.background4{
+  background-color: rgb(240,255,240);
+}
+.bottompic {
+  height:225px; 
+  background-attachment: fixed;
+  background-image: url(bannerbg/redbg.jpeg);  
+  background-position: center; 
+  background-size: cover;
+} 
+.bottomtext{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding-top: 80px;
+  text-shadow: 3px 2px 5px black;
+}
+.button{
+  width: fit-content;
+  margin-left:45%;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: .4s;
+  background-color: rgb(43, 235, 126);
+}
+.button:hover{
+  border-radius: 30px;
+  background-color: yellow;
+}
+.button a{
+  color: black;
+}
+.background{
+  background-color: rgba(237,237,242,0.473);
+}
+.background2{
+  background-color: rgba(249,247,244,0.58);
+}
+.background3{
+  background-color: rgb(240,238,235);
+}
+
+
+ 
+ 
+
+
+
+
+  
+  
+
+
+
+
+
+ 
+
+    
+
+
+
+  

@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 225px;
+    height: 80px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    font-size: large;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #327457;
+}
+#active{
+    color: rgb(197, 179, 88);
+}
+
+nav a:visited {
+    color: #029455;
+}
+
+nav a:active {
+    color: #eab000;
+}
+
+nav a:hover {
+    color: rgb(197, 179, 88);
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    background-color: whitesmoke;
+    height: 80px;
+    box-shadow: 0 5px 10px black;
+    z-index: 5;
+}
+
+body {
+    background-image: url(fc/fc1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.small-container .row {
+    background-color: #fefef5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.small-container .row2{
+    background-color:  #fefef5ba;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    list-style: none;
+}
+footer{
+    background-color: #24262b;
+    text-align: center;
+    color: #999;
+    margin-left: 200px;
+}
+.footer-col img{
+    margin-top: 40px;
+    width: 250px;
+    height: 100px;
+}
+.footer {
+    background-color: #24262b;
+    padding: 50px 0;
+    margin-left: 200px;
+}
+
+.footer-col {
+    width: 33.33%;
+    padding: 0 15px;
+    color: #bbbbbb;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+header {
+    max-width: 1600px;
+    min-width: 500px;
+}
+
+.footer-col .social a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.contact {
+    margin-right: 0;
+
+}
+
+.contact li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.contact li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact li span {
+    color: #999;
+}
+
+.contact li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.contact li a:hover {
+    color: #fff;
+}
+
+.footer-col .social a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media(max-width: 764px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+.col {
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: white;
+    width: 300px;
+    height: 420px;
+}
+
+.col img {
+    padding-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: #24262b;
+}
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+
+    transition: .4s;
+}
+.sidebar ul li:hover a {
+    padding-left: 50px;
+}
+
+.small-container {
+    box-sizing: border-box;
+    margin-left: 200px;
+}
+
+.banner {
+    background-image: url(bannerbg/bannerbg4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 310px;
+    margin-left: 200px;
+}
+
+.text-block {
+    padding-top: 2em;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 2px 5px black;
+}
+.small-container ul{
+    list-style: circle;
+}
+.small-container h1{
+    padding-top: 10px;
+    color: black;
+    text-decoration: underline; 
+    text-align: center;
+    font-size: 35px;
+    font-style:oblique;
+    text-shadow: 2px 2px 5px white;
+    text-align: left;
+    padding-left: 10px;
+}
+.discount{
+    color: red;
+}
